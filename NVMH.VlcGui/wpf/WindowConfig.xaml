@@ -1,9 +1,9 @@
-﻿<Window x:Class="NG.VLCGUI.WindowConfig"
+﻿<Window x:Class="NVMH.VlcGui.WindowConfig"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:NG.VLCGUI"
+        xmlns:local="clr-namespace:NVMH.VlcGui"
         mc:Ignorable="d"
         Title="WindowConfig" Height="366.353" Width="314.823">
     <Grid>
