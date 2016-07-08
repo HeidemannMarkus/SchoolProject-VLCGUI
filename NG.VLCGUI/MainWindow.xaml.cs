@@ -63,8 +63,8 @@ namespace NG.VLCGUI
             // Direktlink
             // myControl.MediaPlayer.Play(new Uri("http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_surround-fix.avi"));
 
-            string link = "https://www.youtube.com/watch?v=iyIOl-s7JTU";
-            //string link = "https://www.youtube.com/watch?v=unfzfe8f9NI";
+            string link = "https://www.youtube.com/watch?v=0sB3Fjw3Uvc";
+            //string link = "https://www.youtube.com/watch?v=0sB3Fjw3Uvc";
 
             IEnumerable<VideoInfo> videoInfos = DownloadUrlResolver.GetDownloadUrls(link);
             VideoInfo video = videoInfos.First(info => info.VideoType == VideoType.Mp4 && info.Resolution == 360);
